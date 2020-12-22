@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BoardGenerator.cs" />
+    <Compile Include="Assets\Scripts\Board.cs" />
+    <Compile Include="Assets\Scripts\Piece.cs" />
+    <Compile Include="Assets\Scripts\Tile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

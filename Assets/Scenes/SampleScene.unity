@@ -152,9 +152,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78863c4f1247a0b4c83f9bea670fe8a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whiteTilePrefab: {fileID: 6887705308089286202, guid: f9da2eebed954344c893bb82093857bd, type: 3}
-  blackTilePrefab: {fileID: 2273935996892266281, guid: 36a1f67581129ca49a426903f3d91abc, type: 3}
-  container: {fileID: 432813777}
+  board: {fileID: 432813779}
+  whiteTilePrefab: {fileID: 3243803801980677802, guid: 20cfa8e5dd0090f47860d53547493752, type: 3}
+  blackTilePrefab: {fileID: 7586177249707909201, guid: a4126d7bcbf603c4bbb702262d0dbaf7, type: 3}
+  blackPawnPrefab: {fileID: 3786583712037195060, guid: 06ee5cac994e26e44ad453f7e575dab7, type: 3}
+  whitePawnPrefab: {fileID: 3220567769251433898, guid: cf75e1c4cac3f224a998565b849bae1f, type: 3}
+  blackRookPrefab: {fileID: 7151992046478435534, guid: df01189ba82c7054181957ff8535ed0d, type: 3}
+  whiteRookPrefab: {fileID: 2826116627130624239, guid: 5548135fb7625744ab210c50e7032e94, type: 3}
+  blackKnightPrefab: {fileID: 8411000628657806748, guid: d2dea06f6a2d50c4fabdcb81522428f4, type: 3}
+  whiteKnightPrefab: {fileID: 2591201388686757937, guid: 4779e15913f6f1a44acc397a650c6321, type: 3}
+  blackBishopPrefab: {fileID: 4053809055415047402, guid: 478d0c0e223870142be7ab627998efdc, type: 3}
+  whiteBishopPrefab: {fileID: 4472121655680607123, guid: c1c96fd321bdb8345999da44ce6f1682, type: 3}
+  blackKingPrefab: {fileID: 4103568454873424188, guid: ca8534b70d0554c4bb562703b4739acb, type: 3}
+  whiteKingPrefab: {fileID: 3009277005425113577, guid: 0ca579d21c75ff2419f7e62c9478781b, type: 3}
+  blackQueenPrefab: {fileID: 3085429939635232193, guid: d437117623099ad4192709bfb9cd6126, type: 3}
+  whiteQueenPrefab: {fileID: 4205137188569123094, guid: bfed5bc6dcb02ce41913c34c66783d60, type: 3}
   rows: 8
   cols: 8
 --- !u!4 &100504932
@@ -180,8 +192,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 432813778}
+  - component: {fileID: 432813779}
   m_Layer: 0
-  m_Name: BoardContainer
+  m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -195,12 +208,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432813777}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -4.5, z: 0}
+  m_LocalPosition: {x: -3.5, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432813779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432813777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735c2ce843418944a823994485380e97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardPieces: []
 --- !u!1 &476451069
 GameObject:
   m_ObjectHideFlags: 0

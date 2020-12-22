@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1004749041
+    locked: 0
+  - name: Board
+    uniqueID: 21033775
+    locked: 0
+  - name: Anim0
+    uniqueID: 3336501085
+    locked: 0
+  - name: Piece
+    uniqueID: 4167863001
+    locked: 0
+  - name: Anim1
+    uniqueID: 2803576719
+    locked: 0
