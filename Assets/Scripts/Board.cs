@@ -10,7 +10,7 @@ public class Board : MonoBehaviour
     private GameObject selectedTile;
 
 
-    private void Start()
+    private void Awake()
     {
         boardTiles = new GameObject[8, 8];
         boardPieces = new List<GameObject>();

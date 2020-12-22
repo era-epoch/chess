@@ -35,7 +35,7 @@ public class Tile : MonoBehaviour
     {
         
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-        renderer.color = new Color(0.0f, 0.0f, 0.0f, 0.5f);
+        renderer.color = new Color(0.5f, 0.5f, 0.5f, 1.0f);
         hovering = true;
     }
 

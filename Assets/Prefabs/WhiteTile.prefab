@@ -97,7 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6cdb6f0e04db8d438f803a851a69585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverSprite: {fileID: 0}
+  hovering: 0
+  selected: 0
+  contents: {fileID: 0}
 --- !u!1839735485 &3442989376869736729
 Tilemap:
   m_ObjectHideFlags: 0

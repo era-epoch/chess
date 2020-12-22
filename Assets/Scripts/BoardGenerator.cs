@@ -9,6 +9,7 @@ public class BoardGenerator : MonoBehaviour
     
     public GameObject whiteTilePrefab;
     public GameObject blackTilePrefab;
+
     public GameObject blackPawnPrefab;
     public GameObject whitePawnPrefab;
     public GameObject blackRookPrefab;
@@ -47,7 +48,6 @@ public class BoardGenerator : MonoBehaviour
                 if (counter%2 == 0)
                 {
                     GameObject tile = Instantiate(whiteTilePrefab, adjPosition, Quaternion.identity);
-                    //Debug.Log(tile.transform.position);
                     board.boardTiles[i, j] = tile;
                 }
                 else
