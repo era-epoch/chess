@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3022501037835814718}
   - component: {fileID: 4409222594058425886}
   - component: {fileID: -7191075692182710753}
-  - component: {fileID: 4416568689923448585}
+  - component: {fileID: 341696849799138872}
   m_Layer: 0
   m_Name: BBishopRed
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: -127104295
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2b2db4821f86a3945b759f2b9062fdf5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 14f50c0ff172f6c469cc79b656eeb2ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -110,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &4416568689923448585
+--- !u!114 &341696849799138872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,6 +119,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4053809055415047402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769f8edca6ae82341adf2d657c881a71, type: 3}
+  m_Script: {fileID: 11500000, guid: 519c50c26d439a64a93165b1f3bc2938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owner: b
+  hasMoved: 0

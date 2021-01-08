@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3442989376869736729}
   - component: {fileID: 5362710195730030547}
   m_Layer: 0
-  m_Name: whitetile
+  m_Name: WhiteTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 21033775
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 96d1ac0c8b41ea843a3e81cf944da03c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6b92f517b52679a4685158d062cfb169, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hovering: 0
   selected: 0
-  contents: {fileID: 0}
 --- !u!1839735485 &3442989376869736729
 Tilemap:
   m_ObjectHideFlags: 0

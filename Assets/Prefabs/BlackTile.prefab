@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6527193240092043152}
   - component: {fileID: 723418126497325992}
   m_Layer: 0
-  m_Name: blacktile
+  m_Name: BlackTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 21033775
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6c05127288dd89140b7609d51fe38d6c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7da91b2395f16d64b8eb6fc5397745f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,7 +98,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hovering: 0
   selected: 0
-  contents: {fileID: 0}
 --- !u!61 &723418126497325992
 BoxCollider2D:
   m_ObjectHideFlags: 0
